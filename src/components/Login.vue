@@ -2,7 +2,7 @@
     <div class="min-h-screen flex items-center justify-center bg-cover bg-center "
         :style="{ backgroundImage: `url(${backgroundImage})`, 'background-size': '100% 100%' }">
         <div class="bg-white bg-opacity-90 p-8 rounded-lg shadow-lg w-full max-w-md backdrop-blur-sm">
-            <h1 class="text-h1 text-foreground text-center mb-6">Wealth-Wise</h1>
+            <h1 class="text-h1 text-foreground text-center mb-6">Wealth Wise</h1>
             <h2 class="text-h2 text-foreground text-center mb-8">
                 Welcome Back!
             </h2>
