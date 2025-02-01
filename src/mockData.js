@@ -4,6 +4,10 @@ export default {
         { date: '2023-10-26', description: 'Grocery Store', category: 'Food', amount: -50 },
         { date: '2023-10-25', description: 'Utilities', category: 'Electricity', amount: -120 },
         { date: '2023-10-24', description: 'Salary', category: 'Income', amount: 2000 },
+        { date: '2023-10-23', description: 'Gas Station', category: 'Transportation', amount: -40 },
+        { date: '2023-10-22', description: 'Coffee Shop', category: 'Dining', amount: -5 },
+        { date: '2023-10-21', description: 'Phone Bill', category: 'Utilities', amount: -60 },
+        { date: '2023-10-20', description: 'Freelance Work', category: 'Income', amount: 500 },
         // ... more transactions
     ],
     goals: [
