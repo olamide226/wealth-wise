@@ -40,6 +40,7 @@ const chartData = ref({
             data: [], // Will be filled with mock data
             borderColor: 'rgb(75, 192, 192)',
             tension: 0.1,
+            backgroundColor: 'rgba(75, 192, 192, 0.2)', // Add fill color
         },
     ],
 });
@@ -47,6 +48,16 @@ const chartData = ref({
 const chartOptions = ref({
     responsive: true,
     maintainAspectRatio: false,
+    scales: {
+        y: {
+            beginAtZero: true,
+        },
+    },
+    plugins: {
+        legend: {
+            display: false, // Hide legend for single dataset
+        },
+    },
 });
 
 onMounted(() => {

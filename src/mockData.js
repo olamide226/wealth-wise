@@ -30,4 +30,15 @@ export default {
                 "You're currently spending a significant portion on dining out. Consider reducing this to accelerate your savings.",
         },
     ],
+    financialTopics: {
+        SPENDING: ['spending', 'expenses', 'costs', 'bills'],
+        SAVING: ['saving', 'savings', 'save'],
+        INVESTING: ['invest', 'investment', 'stocks', 'bonds'],
+        DEBT: ['debt', 'loan', 'credit'],
+        GOALS: ['goal', 'target', 'plan'],
+        DNA: ['dna', 'profile', 'personality'],
+        BUDGET: ['budget', 'allocate', 'planning']
+    }
 };
+
+

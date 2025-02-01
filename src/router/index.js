@@ -4,6 +4,7 @@ import TransactionUploader from '../components/Transactions/TransactionUploader.
 import Goals from '../components/Goals/GoalsList.vue';
 import Chatbot from '../components/Chatbot/Chatbot.vue';
 import Login from '../components/Login.vue';
+import FinancialDNAQuestions from '../components/DNA/FinancialDNAQuestions.vue';
 
 const routes = [
     { path: '/', component: Dashboard, meta: { requiresAuth: true } }, // Protected route
@@ -11,6 +12,7 @@ const routes = [
     { path: '/goals', component: Goals, meta: { requiresAuth: true } }, // Protected route
     { path: '/chatbot', component: Chatbot, meta: { requiresAuth: true } }, // Protected route
     { path: '/login', component: Login, name: 'Login' },
+    { path: '/financial-dna', component: FinancialDNAQuestions, meta: { requiresAuth: true } }, // Protected route
 ];
 
 const router = createRouter({
